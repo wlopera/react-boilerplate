@@ -1,0 +1,7 @@
+{
+    "presets": [
+        '@babel/preset-env',  // Traducir codigo de JS
+        '@babel/preset-react' // Traducir codigo de React
+    ],
+    "plugins": []
+}
