@@ -5,7 +5,7 @@ module.exports = {
   //   mode: "development",
   entry: "./src/index.js", // Archivo js de entrada
   output: {
-    path: path.join(__dirname, "dist"), // Carpeta de salida __dirname: path base
+    path: path.join(__dirname, "/"), // Carpeta de salida __dirname: path base
     filename: "bundle.js", //nombre del js empaquetado
   },
   devServer: {

@@ -6,16 +6,22 @@ const App = (props) => {
     done: true,
   });
 
+  const changeHandler = (event) => {
+    setTask({ title: event.value, done: task.done });
+  };
+
   const clickHandler = () => {
     setTask({ title: task.title, done: !task.done });
+    alert("Tarea Modificada: " + JSON.stringify(task));
   };
 
   return (
     <div>
-      <h3>{task.title}</h3>
+      <input type="text" value={task.title} onChange={changeHandler} />
+
       <h1>{task.done.toString()}</h1>
 
-      <button onClick={clickHandler}>Procesar</button>
+      <button onClick={clickHandler}>Modificar</button>
     </div>
   );
 };
