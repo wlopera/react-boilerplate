@@ -7,12 +7,14 @@ const App = (props) => {
   });
 
   const changeHandler = (event) => {
-    setTask({ title: event.value, done: task.done });
+    setTask({ title: event.target.value, done: task.done });
   };
 
   const clickHandler = () => {
+    console.log(task);
     setTask({ title: task.title, done: !task.done });
     alert("Tarea Modificada: " + JSON.stringify(task));
+    console.log("Tarea Modificada: " + task);
   };
 
   return (
