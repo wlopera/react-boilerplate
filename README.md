@@ -22,13 +22,24 @@ React con Webpack Base
 ## Subir servidor webpach-dev-server y decompilar
 - $ npx webpack server     // opcional: --mode=development
 
+## Crear rama solo para publicar a través de GitHub Pages:
+
+### REQUIERE:
+   - Una rama solo con (bundle,js y index.html : empaquetados)
+   - Deben estar en la raíz del proyecto
+   
+![Captura-1](https://user-images.githubusercontent.com/7141537/117551140-cf0f1b00-b009-11eb-9cb2-8c4de04f450b.PNG)
+
+## Crear GitHub pages de esta rama
+
+![Captura](https://user-images.githubusercontent.com/7141537/117551139-cdddee00-b009-11eb-821b-b6dd5f40c31a.PNG)
+
 ## Empaquetar para produccion
 - $ npx webpack --mode=production
 
-
- ## Link: https://www.faztweb.com/
-
-
 ## Salida
 
-![Captura](https://user-images.githubusercontent.com/7141537/117546234-03c1a900-afef-11eb-8e71-99f54504f549.PNG)
+![Captura2](https://user-images.githubusercontent.com/7141537/117551189-15fd1080-b00a-11eb-93f0-c285725dbee2.PNG)
+
+ ## Agradecimiento aporte 
+ - https://www.faztweb.com/
