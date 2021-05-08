@@ -22,20 +22,26 @@ React con Webpack Base
 ## Subir servidor webpach-dev-server y decompilar
 - $ npx webpack server     // opcional: --mode=development
 
-## Crear rama solo para publicar a través de GitHub Pages:
+## Empaquetar para produccion
+- $ npx webpack --mode=production
 
+## Rama fuente para hacer los cambios: 
+ - task_dev_prueba_webpack_github_pages
+
+## Crear rama solo para publicar a través de GitHub Pages
+- task_dev_prueba_webpack_github_pages_1
 ### REQUIERE:
-   - Una rama solo con (bundle,js y index.html : empaquetados)
-   - Deben estar en la raíz del proyecto
+  - Una rama solo con (bundle,js y index.html : empaquetados) 
+  - Deben estar en la raíz del proyecto
    
 ![Captura-1](https://user-images.githubusercontent.com/7141537/117551140-cf0f1b00-b009-11eb-9cb2-8c4de04f450b.PNG)
 
 ## Crear GitHub pages de esta rama
+  - [Rama: task_dev_prueba_webpack_github_pages_1]
+  - Sitio publicado: https://wlopera.github.io/react-boilerplate/
 
 ![Captura](https://user-images.githubusercontent.com/7141537/117551139-cdddee00-b009-11eb-821b-b6dd5f40c31a.PNG)
 
-## Empaquetar para produccion
-- $ npx webpack --mode=production
 
 ## Salida
 
